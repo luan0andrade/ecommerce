@@ -3,7 +3,7 @@
   <!-- Content Header (Page header) -->
   <section class="content-header">
     <h1>
-      Page Header
+      Page Header&lt;?php echo $_SESSION['deslogin']?&gt;
       <small>Optional description</small>
     </h1>
     <ol class="breadcrumb">
